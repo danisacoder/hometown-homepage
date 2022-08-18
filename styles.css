@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #251F47;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', s;
 }
 
 img {
@@ -72,25 +72,31 @@ h2 {
     border-bottom: solid #251F47 5px;
     border-radius: 10px;
     margin: 50px 0;
-    height: 250px;
+    height: 300px;
+}
+
+.card h3 {
+    font-size: 1.4rem;
 }
 
 .activity {
-    margin: 50px 0;
+    margin: 50px 0 30px 0;
     width: 200px;
 }
 
 #guide-text {
     width: 40%;
+    margin-top: -30px;
 }
 
 #guide-text p {
     font-style: italic;
-    font-size: small;
+    /* font-size: small; */
+    font-size: .9rem;
 }
 
 #guide-image img {
-    height: 200px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
