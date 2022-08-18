@@ -1,0 +1,97 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #251F47;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background-image: url(images/torshov.jpg);
+    background-size: cover;
+    height: 335px;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: #251F47;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 110px;
+}
+
+h2 {
+    background-color: #457B9D;
+    width: 350px;
+    padding: 5px 50px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F2FAEF;
+}
+
+.activities img {
+    border-radius: 50%;
+}
+
+.guide {
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    background-color: #A8DADB;
+    border-bottom: solid #251F47 5px;
+    border-radius: 10px;
+    margin: 50px 0;
+    height: 250px;
+}
+
+.activity {
+    margin: 50px 0;
+    width: 200px;
+}
+
+#guide-text {
+    width: 40%;
+}
+
+#guide-text p {
+    font-style: italic;
+    font-size: small;
+}
+
+#guide-image img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
